@@ -85,8 +85,6 @@ h1{
     flex-direction: column;
     height: 426px;
     width: 330px;
-    align-items: center;
-    
 }
 .player img{
     width: 330px;
@@ -101,17 +99,18 @@ h1{
     display: flex;
     
 }
-article{
-    margin: top 224px;
+.optional-half-width{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
-    
 .optional-half-width h1{
     color: #000;
 }
 .optional-half-width img {
     width: 567px;
     height: 427px;
-    margin-top: 50px; 
+    margin-top: 85px; 
     padding-top: 80px;
 }
 
