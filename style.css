@@ -1,0 +1,146 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF ;
+}
+main{
+    padding: 0;
+    margin: 0;
+}
+
+/* top part */
+.top-banner{
+    background-color: blue;
+    background-size: cover; 
+}
+h1:hover{
+    transform: scale(1.5); 
+    color: rgb(103, 114, 103);
+}
+h1{
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 160px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+    transition: transform 5s;
+}
+
+.link-button{
+    text-decoration: none;
+    background: #E02C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    width: 168px;
+    height: 44px;
+    margin-left: 156px;
+    color: white;  
+}
+.link-button i{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.top-banner{
+    display: flex;
+}
+.half-width{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.half-width img:hover{
+    transform: scale(1.2) translate(40px);
+}
+.half-width img{
+    width: 556.01px;
+    height: 438px;
+    left: 1266.01px;
+    margin-top: 125px;
+    transition: transform 5s ;
+}
+
+/* section02 */
+
+
+.players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr)
+    ;
+    grid-row-gap: 30px;
+    justify-content: center;
+    margin-top: 70px ;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.player{
+    border: 15px solid white;
+    display: flex;
+    flex-direction: column;
+    height: 426px;
+    width: 330px;
+    align-items: center;
+    
+}
+.player img{
+    width: 330px;
+    height: 256px;
+    left: 0px;
+    top: 0px;
+}
+
+/* optional */
+
+.optional{
+    display: flex;
+    
+}
+article{
+    margin: top 224px;
+}
+    
+.optional-half-width h1{
+    color: #000;
+}
+.optional-half-width img {
+    width: 567px;
+    height: 427px;
+    margin-top: 50px; 
+    padding-top: 80px;
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding-top: 186px;
+}
+footer p{
+    margin: 0;
+    padding: 15px 0;
+}
+footer img{
+    width: 483px;
+    height: 110px;
+    padding-bottom: 10px;
+}
+
+.social-icon a {
+    background-color: rgb(211, 211, 211);
+    font-size: 25px;
+    border-radius: 10%;
+
+}
+.social-icon i {
+    font-size: 20px;    
+    padding: 10px;
+    color: grey;
+
+}
+/* footer end */
