@@ -10,6 +10,34 @@ main{
     margin: 0;
 }
 
+/* header part */
+
+/* nav part */
+
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 20px; 
+    color: white;  
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+    padding-left: 156px;
+    padding-right: 50px;
+    align-items: center;
+    
+}
+/* header end */
+
+
+
+
 /* top part */
 .top-banner{
     background-color: blue;
